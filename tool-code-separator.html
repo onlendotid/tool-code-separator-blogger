@@ -1,0 +1,30 @@
+<title>Code Separator Tool</title>
+  
+  <div id="code-separator-tool">
+    <div class="tool-container">
+      <h2>Code Separator Tool</h2>
+      <textarea id="inputCode" placeholder="Paste your code here..."></textarea>
+      <div class="button-group">
+        <button id="separateCodeBtn">Pisahkan Kode</button>
+        <button id="clearCodeBtn">Hapus Kode</button>
+      </div>
+      
+      <div class="result-container">
+        <div class="result-section">
+          <h3>HTML Code</h3>
+          <textarea id="htmlOutput" readonly=""></textarea>
+          <button class="copy-btn" onclick="copyToClipboard('htmlOutput')">Salin HTML</button>
+        </div>
+        <div class="result-section">
+          <h3>CSS Code</h3>
+          <textarea id="cssOutput" readonly=""></textarea>
+          <button class="copy-btn" onclick="copyToClipboard('cssOutput')">Salin CSS</button>
+        </div>
+        <div class="result-section">
+          <h3>JS Code</h3>
+          <textarea id="jsOutput" readonly=""></textarea>
+          <button class="copy-btn" onclick="copyToClipboard('jsOutput')">Salin JS</button>
+        </div>
+      </div>
+    </div>
+  </div>
