@@ -1,3 +1,4 @@
+<style>
 #code-separator-tool {
       font-family: Arial, sans-serif;
       background-color: #f0f2f5;
@@ -60,3 +61,4 @@
     #code-separator-tool .copy-btn:hover {
       background-color: #388E3C;
     }
+</style>
